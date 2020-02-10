@@ -6,9 +6,10 @@ import databaseConfig from '../config/database'; // configurações da base de d
 
 // importando os Models
 import User from '../app/models/User';
+import Recipient from '../app/models/Recipient';
 
 // Criando um Array com todos os models da aplicação
-const models = [User];
+const models = [User, Recipient];
 
 class Database {
   constructor() {
